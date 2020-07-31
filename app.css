@@ -1,0 +1,29 @@
+body,
+html {
+  overflow: hidden;
+}
+.Wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.title {
+  margin: 10px;
+}
+.title span {
+  font-weight: 700;
+  font-size: 30px;
+}
+.Content {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+.bar {
+  width: 5px;
+  background: red;
+  margin: 0px 1px;
+  border-radius: 5em;
+}
